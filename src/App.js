@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Display from './components/Display';
+import Contdown from './components/Contdown';
 
 export default class App extends Component {
 
@@ -31,6 +32,7 @@ export default class App extends Component {
     render() {
         return (
             <div className="App">
+                <Contdown />
                 <div className="columns">
                     <div className="column">
                         <h1 className="is-size-4 has-text-left">Hong</h1>
